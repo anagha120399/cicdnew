@@ -74,5 +74,18 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+	<configuration>
+                    <cloudHubDeployment>
+                        <uri>https://anypoint.mulesoft.com</uri>
+                        <username>anaghaa123</username>
+                        <password>Anagha@1234</password>
+                        <environment>Sandbox</environment>
+                        <muleVersion>4.6.0</muleVersion>
+                        <workers>1</workers>
+                        <workerType>Micro</workerType>
+                        <applicationName>demojenkins123321</applicationName>
+                        <objectStoreV2>true</objectStoreV2>
+                    </cloudHubDeployment>
+            </configuration>  
 
 </project>
